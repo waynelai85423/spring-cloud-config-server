@@ -11,5 +11,5 @@ spring:
     password: wayne
     driver-class-name: org.postgresql.Driver
 
-wayne: test06
+wayne: test07
 
