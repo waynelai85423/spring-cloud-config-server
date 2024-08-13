@@ -10,3 +10,8 @@ spring:
     console:
       enabled: true  # 設定要啟用 H2 的 console 可以在瀏覽器上面查詢 table
       path: /h2 # 瀏覽器 console 的 URL 路徑
+ sql:
+    init:
+      encoding: UTF-8
+      mode: always
+      data-locations: classpath:data.sql
